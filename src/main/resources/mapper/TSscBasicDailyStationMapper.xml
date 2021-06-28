@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yy.mybatis.mapper.TSscBasicDailyStationMapper">
+    <select id="getAll" resultType="com.yy.mybatis.domain.TSscBasicDailyStation">
+        select * from t_ssc_basic_daily_station;
+    </select>
+</mapper>
